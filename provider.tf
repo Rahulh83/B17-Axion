@@ -9,7 +9,7 @@ terraform {
     resource_group_name  = "rhbkndrg"
     storage_account_name = "backendstg1"
     container_name       = "stgbkl"
-    key                  = "dev.tfstatee"
+    key                  = "dev.tfstate"
   } 
 }
 
