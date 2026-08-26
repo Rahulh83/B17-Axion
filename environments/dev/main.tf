@@ -4,7 +4,7 @@ resource "azurerm_resource_group" "rahulRG" {
 }
 
 resource "azurerm_kubernetes_cluster" "aks" {
-  name                = "dev-aks"
+  name                = "dev-aks1"
   location            = azurerm_resource_group.rahulRG.location
   resource_group_name = azurerm_resource_group.rahulRG.name
   dns_prefix          = "dns-aks"
